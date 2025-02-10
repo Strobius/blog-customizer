@@ -7,8 +7,8 @@ import clsx from 'clsx';
 export type OnClick = () => void;
 
 type ArrowButtonProps = {
-	isOpen: boolean;
-	onClick: OnClick;
+	isOpen?: boolean;
+	onClick?: OnClick;
 };
 
 export const ArrowButton = ({ isOpen, onClick }: ArrowButtonProps) => {
